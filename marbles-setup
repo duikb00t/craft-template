@@ -172,8 +172,8 @@ function initializeGit()
  */
 function runLaravelMix()
 {
-    outputString(PHP_EOL.'Running Laravel Mix', Console::FG_YELLOW);
-    executeShellCommand('npm run dev');
+    //outputString(PHP_EOL.'Running Laravel Mix', Console::FG_YELLOW);
+    //executeShellCommand('npm run dev');
 }
 
 /**
@@ -220,7 +220,7 @@ function setupCraftScripts()
 
 function installNodePackages()
 {
-    $command = '';
+    /*$command = '';
     if (shellCommandExists('npm')) {
         $command = 'npm install';
     }
@@ -235,7 +235,7 @@ function installNodePackages()
         outputString($result);
     } else {
         outputString('### unable to install NodeJS packages, yarn/npm not found', Console::FG_RED);
-    }
+    }*/
 }
 
 /**

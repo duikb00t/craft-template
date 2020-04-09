@@ -33,13 +33,10 @@
         "nystudio107/craft-scripts": "^1.2.4",
         "nystudio107/craft-typogrify": "1.1.18",
         "ostark/craft-async-queue": "2.1.1",
-        "putyourlightson/craft-blitz": "2.1.4",
         "rias/craft-colour-swatches": "1.2.3",
         "rias/craft-position-fieldtype": "1.0.14",
-        "rias/craft-simple-forms": "dev-master",
         "sebastianlenz/linkfield": "1.0.21",
         "verbb/expanded-singles": "1.0.12",
-        "verbb/navigation": "1.2.9",
         "verbb/super-table": "2.3.3",
         "vlucas/phpdotenv": "^2.4.0"
     },

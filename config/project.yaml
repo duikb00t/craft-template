@@ -1,4 +1,4 @@
-dateModified: 1586356898
+dateModified: 1586412336
 email:
   fromEmail: kjell@marbles.be
   fromName: Craft
@@ -165,6 +165,16 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
+graphql:
+  schemas:
+    269fce0d-d13b-4587-8ed7-aa254ce66fe4:
+      isPublic: '1'
+      name: 'Public Schema'
+      scope:
+        - 'sections.fe154a59-9561-4bf1-ba7b-f2e632f45aaf:read'
+        - 'entrytypes.61f1fb8a-a31e-424a-a094-0bb848c53bf9:read'
+        - 'volumes.56927c8a-e051-4381-aa6c-4100a9fa4991:read'
+        - 'volumes.12c8dca7-56cf-417a-9df3-c5a710146773:read'
 matrixBlockTypes:
   8a344f4b-be5d-44bf-9318-3fe86affe1e6:
     field: b494bf2c-eafd-4194-99a9-559a9549d81e
@@ -919,7 +929,7 @@ sites:
     siteGroup: 621953cd-07f9-4cb7-b4b8-ce528d22656b
     sortOrder: 1
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Craft
   schemaVersion: 3.4.10

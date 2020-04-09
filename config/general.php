@@ -42,6 +42,8 @@ return [
             '@basePath' => getenv('BASE_PATH'),
             '@baseUrl' => getenv('BASE_URL'),
         ],
+        
+        'headlessMode' => true
     ],
 
     // Live (production) environment
